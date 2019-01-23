@@ -3,7 +3,10 @@
 clc
 clear
 
-x = rand(20, 1); set(gca, 'FontSize', 18);
-plot(x, '-md', 'LineWidth', 2, 'MarkerEdgeColor', 'k', ...
+t = 1:1 / 20:2;
+x = sin(2 * pi * t);
+set(gca, 'FontSize', 18);
+plot(t, x, '-md', 'LineWidth', 2, 'MarkerEdgeColor', 'k', ...
     'MarkerFaceColor', 'g', 'MarkerSize', 10);
-xlim([1, 20]);
+
+xlim([1, 2]);
