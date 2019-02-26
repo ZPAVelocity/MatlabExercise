@@ -3,7 +3,7 @@
 clc
 clear
 
-x = [1 2 5 4 8]; y = [x; 1:5];
+x = [1, 2, 5, 4, 8]; y = [x; 1:5];
 subplot(1, 3, 1);
 bar(x);
 title('A bargraph of vector x');
