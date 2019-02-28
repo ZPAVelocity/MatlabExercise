@@ -1,6 +1,7 @@
+% 10 18
 % Second and Third Derivatives
 
-x = -2:0.005:2; 
+x = -2:0.005:2;
 y = x.^3;
 m = diff(y)./diff(x);
 m2 = diff(m)./diff(x(1:end-1));

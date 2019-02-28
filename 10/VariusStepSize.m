@@ -16,7 +16,7 @@ end
 
 hold off;
 
-set(gca, 'XLim', [0, pi / 2]); 
+set(gca, 'XLim', [0, pi / 2]);
 set(gca, 'YLim', [0, 1.2]);
 set(gca, 'FontSize', 18);
 set(gca, 'FontName', 'Times New Roman');
